@@ -3,7 +3,8 @@ import Photo from '../assets/projects/air.jpg'
 import Photo2 from '../assets/projects/yoga.jpg'
 import Photo3 from '../assets/projects/Defi.jpg'
 import Photo4 from '../assets/projects/secured.jpg'
-import Photo5 from '../assets/projects/workImg.jpeg'
+import Photo5 from '../assets/img77.png'
+import Photo6 from '../assets/img88.png'
 
 
 const Work = () => {
@@ -17,6 +18,38 @@ const Work = () => {
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
+                <div style={{backgroundImage:`url(${Photo5})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center content'>
+                    
+                    <div className='opacity-0 group-hover:opacity-100   '>
+                        <span className='text-2xl font-bold  text-white tracking-wider'>
+                            React js Application
+                        </span>
+                        
+                            <div className='pt-8 text-center'>
+                               
+                                <a href="https://github.com/Ariyoola45/Airtravel-project">
+                                    <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        
+                    </div>
+                </div>
+                <div style={{backgroundImage:`url(${Photo6})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center content'>
+                    
+                    <div className='opacity-0 group-hover:opacity-100   '>
+                        <span className='text-2xl font-bold  text-white tracking-wider'>
+                            React js Application
+                        </span>
+                        
+                            <div className='pt-8 text-center'>
+                               
+                                <a href="https://github.com/Ariyoola45/Airtravel-project">
+                                    <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        
+                    </div>
+                </div>
                 <div style={{backgroundImage:`url(${Photo})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center content'>
                     
                     <div className='opacity-0 group-hover:opacity-100   '>
