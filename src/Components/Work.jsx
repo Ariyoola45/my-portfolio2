@@ -43,7 +43,7 @@ const Work = () => {
                         
                             <div className='pt-8 text-center'>
                                
-                                <a href="https://github.com/Ariyoola45/Airtravel-project">
+                                <a href="https://github.com/Ariyoola45/time">
                                     <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -54,7 +54,7 @@ const Work = () => {
                     
                     <div className='opacity-0 group-hover:opacity-100   '>
                         <span className='text-2xl font-bold  text-white tracking-wider'>
-                            React js Application
+                            HTML ,CSS. JS 
                         </span>
                         
                             <div className='pt-8 text-center'>
