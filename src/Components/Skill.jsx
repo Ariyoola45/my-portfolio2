@@ -8,8 +8,8 @@ import Tailwind from '../assets/tailwind.png';
 
 const Skill = () => {
   return (
-    <div name='skill' className=' bg-[#0a192f] text-gray-300 '>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div name='skill' className=' bg-[#0a192f] text-gray-300 w-full h-screen '>
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center  '>
             <div>
                 <p className=' text-4xl  border-b-4 border-red-600 '>Skills</p>
                 <p className=' py-4 '>// These are the technologies  i have work with  </p>

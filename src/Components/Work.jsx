@@ -10,8 +10,8 @@ import Photo6 from '../assets/img88.png'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full bg-[#0a192f] md:h-screen text-gray-100'>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full '>
+    <div name='work' className='w-full bg-[#0a192f] md: h-screen text-gray-100  '>
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full  '>
             <div className='pb-8'>
                 <p className=' text-4xl font-bold inline border-b-4 border-red-600 text-gray-100 '>Work</p>
                 <p className='py-6'>// Check out some of my recent work </p>
