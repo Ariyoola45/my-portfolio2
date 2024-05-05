@@ -3,6 +3,7 @@ import Photo from '../assets/projects/air.jpg'
 import Photo2 from '../assets/projects/yoga.jpg'
 import Photo3 from '../assets/projects/Defi.jpg'
 import Photo4 from '../assets/projects/secured.jpg'
+import Photo7 from '../assets/projects/page.png'
 import Photo5 from '../assets/img77.png'
 import Photo6 from '../assets/img88.png'
 
@@ -49,7 +50,24 @@ const Work = () => {
                             </div>
                         
                     </div>
+                </div>               
+                 <div style={{backgroundImage:`url(${Photo7})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center content'>
+                    
+                    <div className='opacity-0 group-hover:opacity-100   '>
+                        <span className='text-2xl font-bold  text-white tracking-wider'>
+                            Next js Application
+                        </span>
+                        
+                            <div className='pt-8 text-center'>
+                               
+                                <a target="_blank" href="https://www.zerofilter.ai/">
+                                    <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Link</button>
+                                </a>
+                            </div>
+                        
+                    </div>
                 </div>
+
                 <div style={{backgroundImage:`url(${Photo})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center content'>
                     
                     <div className='opacity-0 group-hover:opacity-100   '>
