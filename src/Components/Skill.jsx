@@ -5,10 +5,11 @@ import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
+import nextjs from '../assets/nextjs.svg';
 
 const Skill = () => {
   return (
-    <div name='skill' className=' bg-[#0a192f] text-gray-300 w-full h-screen '>
+    <div name='skill' className=' bg-[#0a192f] text-gray-300 w-full h-full sm:my-22 '>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center  '>
             <div>
                 <p className=' text-4xl  border-b-4 border-red-600 '>Skills</p>
@@ -39,6 +40,10 @@ const Skill = () => {
                 <div className='shadow-md: shadow-[#0404c16 ] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Tailwind} alt="html icon" />
                     <p>tailwind</p>
+                </div>
+                <div className='shadow-md: shadow-[#0404c16 ] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={nextjs} alt="html icon" />
+                    <p>Next jx</p>
                 </div>
             </div>
 
